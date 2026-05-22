@@ -47,6 +47,7 @@ const pages = [
     label: 'spells',
     href: '/spells',
     links: [
+      { label: 'spell-module', href: '/spells' },
       { label: 'spell-lists', href: '/spells/spell-lists' },
       { label: 'spells', href: '/spells/spells' },
     ],
