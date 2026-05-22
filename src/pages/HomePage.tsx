@@ -150,10 +150,12 @@ export const Home = () => {
         </Container>
       </Box>
 
-      <Container maxWidth="lg" sx={{ py: 10 }}>
-        <Alert severity="warning" sx={{ mb: 1 }}>
-          This application is an independent project developed by fans of Rolemaster Unified. It is not affiliated with, endorsed by, or licensed by{' '}
-          <Link href="https://ironcrown.co.uk/">Iron Crown Enterprises (ICE)</Link>. Please support official publications if you enjoy Rolemaster.
+      <Container maxWidth="xl" sx={{ py: 10 }}>
+        <Alert severity="info" sx={{ mb: 1 }}>
+          <Typography variant="h6">
+            This application is an independent project developed by fans of Rolemaster Unified. It is not affiliated with, endorsed by, or licensed by{' '}
+            <Link href="https://ironcrown.co.uk/">Iron Crown Enterprises</Link>. Please support official publications if you enjoy Rolemaster.
+          </Typography>
         </Alert>
 
         <Grid container spacing={3}>
@@ -184,7 +186,7 @@ export const Home = () => {
               >
                 <CardContent sx={{ p: 0, flex: 1 }}>
                   <Typography variant="h5">{t(f.title)}</Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
+                  <Typography variant="body1" color="text.secondary" sx={{ mt: 1 }}>
                     {t(f.desc)}
                   </Typography>
                 </CardContent>
